@@ -3,7 +3,7 @@ import org.junit.jupiter.api.Test;
 
 public class CreditCalculatorTest {
 
-    CreditCalculator calculator;
+    CreditCalculator calculator = new CreditCalculatorImpl();
 
     @Test
     void testMonthlyPayments() {
